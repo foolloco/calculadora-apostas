@@ -1,28 +1,36 @@
 {
   "name": "Calculadora de Apostas",
-  "short_name": "Apostas",
+  "short_name": "CalcApostas",
   "start_url": "/index.html",
-  "scope": "/",
   "display": "standalone",
-  "background_color": "#4CAF50",
-  "theme_color": "#4CAF50",
-  "description": "App para gerenciar apostas entre amigos",
+  "background_color": "#ffffff",
+  "theme_color": "#0d47a1",
+  "description": "App para gerenciar apostas e lucros.",
+  "orientation": "portrait",
+  "lang": "pt-BR",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "icon-512.png",
+      "src": "/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ],
+  "id": "/",
   "launch_handler": {
-    "client_mode": "auto"
+    "client_mode": "navigate-new"
   },
-  "orientation": "portrait"
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    }
+  ]
 }
