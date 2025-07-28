@@ -2,11 +2,11 @@ self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open('calculadora-v1').then(function(cache) {
       return cache.addAll([
-        './',
-        './index.html',
-        './manifest.json',
-        './icon-192.png',
-        './icon-512.png'
+        '',
+        'index.html',
+        'manifest.json',
+        'icon-192.png',
+        'icon-512.png'
       ]);
     })
   );
