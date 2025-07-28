@@ -1,10 +1,10 @@
 {
   "name": "Calculadora de Apostas",
   "short_name": "Apostas",
-  "start_url": "./index.html",
+  "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#4CAF50",
+  "theme_color": "#4CAF50",
   "icons": [
     {
       "src": "icon-192.png",
