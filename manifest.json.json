@@ -1,0 +1,16 @@
+{
+  "name": "Calculadora de Apostas",
+  "short_name": "CalculadoraApostas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#4CAF50",
+  "theme_color": "#4CAF50",
+  "description": "Aplicativo para cálculo de apostas entre amigos",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
